@@ -1,17 +1,22 @@
 import React from 'react';
+
+import {BrowserRouter as Router,Route,Switch} from  "react-router-dom";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import './App.css';
+
+import Navbar from "./component/Navbar";
+import Default from "./pages/Default";
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import SingleRecipes from "./pages/SingleRecipes";
-import Default from "./pages/Default";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router,Route,Switch} from  "react-router-dom";
-import './App.css';
 //about react router
 function App() {
   return (
     <Router>
       <main>
+      <Navbar />
         {/** navbar */}
         <Switch>
           <Route path="/" exact component={Home} />
