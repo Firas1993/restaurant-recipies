@@ -27,3 +27,6 @@ body {
     background: linear-gradient(rgba(241, 81, 37, 0.3), rgba(241, 81, 37, 0.2)), url("./images/def404.jpg") center/cover no-repeat;
 
 }
+.text-4{
+    color: rgb(87, 84, 84);
+}
