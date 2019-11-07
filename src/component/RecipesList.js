@@ -3,6 +3,7 @@ import Recipe from "./Recipe";
 export default class RecipesList extends Component {
   render() {
     const recipes = this.props.recipes;
+    console.log(recipes);
     return (
       <div>
         <div className="container py-5">
@@ -20,7 +21,7 @@ export default class RecipesList extends Component {
               key={recipe.recipe_id}
               recipe={recipe}
                      />;})
-          }
+           }
           </div>
         </div>
       </div>

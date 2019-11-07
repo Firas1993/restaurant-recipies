@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import RecipesList from "../component/RecipesList";
 import Search from "../component/Search";
-import {recipeData} from "../data/tempDetails";
+import { recipeData } from "../data/tempList";
 export default class Recipes extends Component {
     
     state={
